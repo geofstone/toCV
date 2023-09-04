@@ -1,0 +1,19 @@
+{
+  "name": "tocv",
+  "version": "1.0.0",
+  "description": "Modify AAVSO report files to change V filter to CV",
+  "main": "toCV.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Geoff Stone SGEA",
+  "license": "MIT",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  },
+  "bin": "node_modules/toCV/bin/toCV",
+  "pkg" : {
+    "assets": "node_modules/**/*"
+  }
+}
